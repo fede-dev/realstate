@@ -1,0 +1,496 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+//-----------navbar-----------------
+
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 5em;
+    background-color: #f3f7f8;
+}
+
+.navbar-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    //background-color: blue;
+}
+
+.navbar-logo{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    width: 70px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top:5px;
+    //background-color: yellow;
+}
+
+.logo-pic{
+    width: 30px;
+    height: 30px;
+}
+
+.logo-text{
+    font-size: .9em;
+    
+}
+
+.navbar-container-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    height: 5em;
+    //background-color: green;
+}
+
+.navbar-button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 5em;
+
+}
+
+
+.navbar-button-ingresar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5.5em;
+    height: 2.5em;
+    background-color: orangered;
+    border-radius: .5em;
+}
+
+.navbar-button-ingresar:hover{
+    background-color: #00f3bb;
+    text-decoration: line-through;
+}
+
+.navbar-button-ingresar a{
+    position:block;
+    width: 50px;
+    color: white;
+    font-size: .9em;
+    text-decoration: none;
+}
+
+.navbar-button-publicar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 30px;
+    //background-color: orchid;
+}
+
+.navbar-button-publicar:hover{
+    background-color: #00f3bb;
+    text-decoration: line-through;
+    border-radius: .5em;
+}
+
+.navbar-button-publicar a{
+    font-weight: 700;
+    font-size: .9em;
+}
+
+.navbar-button-calculadora{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 170px;
+    height:  30px;
+    //background-color: palegreen;
+}
+
+.navbar-button-calculadora:hover{
+    background-color: #00f3bb;
+    text-decoration: line-through;
+    border-radius: .5em;
+}
+
+.navbar-button-calculadora a{
+    font-size: .9em;
+}
+
+.calculadora-pic{
+    width: 20px;
+    height: 20px;
+}
+
+//------------Buscador--------------
+
+.buscador-container{
+    width: 100%;
+    height: 40px;
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.buscador-container-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 80px;
+    //background-color: red;
+}
+
+.barra{
+    width: 50%;
+    height: 35px;
+}
+
+.boton-buscar{
+    width: 10%;
+    height: 38px;
+}
+
+
+//------------Banner-----------------
+
+.banner-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    //background-color: palegreen;
+    background:url(./assets/banner-home2.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.banner-container-text{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 400px;
+    //background-color: blanchedalmond;
+    background: rgba(57, 54, 54, 0.3);
+}
+
+.titular-container-text{
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    //background-color: yellow;
+}
+
+.titular-text{
+
+margin-left: 30px;
+font-size: 2.7em;
+color:#f3f7f8;
+}
+
+
+.second-container-text{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+   // background-color: yellowgreen;
+}
+
+.titular-text-second{
+   font-size: 1.5em;
+   margin-left: 30px;
+   margin-top: 8px;
+   color:#f3f7f8;
+}
+
+.third-container-text{
+    display: flex;
+    flex-direction: row;
+}
+
+.titular-text-third{
+    font-size: 1em;
+    margin-left: 30px;
+    color:#f3f7f8;
+}
+
+//---------Registro-------------
+
+
+.registro-container{
+    width: 25%;
+    height: 400px;
+    margin-left: 20px;
+    background: rgba(57, 54, 54, 0.3);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.legend{
+    font-size: 1em;
+    background: rgba(57, 54, 54, 0.3);
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: white;
+}
+
+
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 330px;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+
+.input-content{
+    width: 40%;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.form-button{
+    width: 50%;
+    height: 30px;
+    margin: auto;
+    color:black;
+    display: block;
+    background-color: yellow;
+    
+}
+
+
+//---------Card-------------
+
+.titulo-prop{
+    height: 120px;
+    font-size: 2em;
+    align-items:center;
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+    display: flex;
+    justify-content: center;
+}
+
+.container-card-principal{
+    width: 100%;
+    height: 1200px;
+    background-color: paleturquoise;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: linear-gradient(#b8b8e0, #0c0c4f);
+}
+
+.container-card{
+    width: 15%;
+    height: 370px;
+    //background-color: pink;
+    //border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.pic-container-card{
+    width: 100%;
+    height: 140px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+}
+
+.texto-container-card{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    //background-color: green;
+    height: 180px;
+    color:blanchedalmond;
+}
+
+.button-container-card{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    height: 30px;
+    border: 1px solid blanchedalmond;
+    border-radius: 10px;
+    
+}
+
+.button-container-card a{
+    align-self: center;
+    text-decoration: none;
+    color:blanchedalmond;
+}
+
+//------- iniciar sesion----------
+
+.iniciar-sesion{
+    background:url(./assets/depto.jpg);
+   background-size: 100%;
+   height: 840px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+.sesion-container{
+    width: 20%;
+    background-color: orangered;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.form-sesion-contanier{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    //background-color: green;
+    height: 300px;
+}
+
+.sesion-button{
+    width: 50%;
+    height: 40px;
+}
+
+
+//------SingleCard----------
+
+
+
+//------Publicar----------
+
+.publicar-container { 
+    width: 20%;
+    height: 200px;
+    background-color: #f3f7f8;
+    margin:auto;
+    margin-top: 150px;
+}
+
+.publicar-container-datos{
+    background-color: #f3f7f8;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.publicar-container-text{
+    background-color: #f3f7f8;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.publicar-container-text-prop{
+    background-color: #f3f7f8;
+    height: 50px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+//--------Publicar Card------------
+
+.publicar-container-card{
+    width: 100%;
+    height: 800px;
+    //background-color: cornflowerblue;
+    margin:auto;
+}
+
+.publicar-container-card-marco{
+    width: 18%;
+    height: 660px;
+    //background-color: cornflowerblue;
+    margin:auto;
+    margin-top: 50px;
+   border: 1px solid black;
+   border-radius: 10px;
+}
+
+.publicar-container-pic{
+    background-color: #f3f7f8;
+    height: 180px;
+}
+
+.publicar-container-card-datos{
+    background-color: cyan;
+    height: 400px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.publicar-card-datos{
+    background-color: #f3f7f8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.card-publicar-id{
+    width: 70%;
+    height: 30px;
+}
+
+.publicar-card-boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 30px;
+    border: 1px solid #f3f7f8;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: darkorange;
+    margin-left: 20px;
+}
+
+//------Footer-------------
+
+.footer-container{
+    width: 100%;
+    height: 30px;
+    position:fixed;
+    bottom: 0;
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+    display: flex;
+  
+}
+
+.datos{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}

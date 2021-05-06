@@ -1,0 +1,37 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently 'npm run client'",
+    "build": "webpack -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-react": "^7.13.13",
+    "axios": "^0.21.1",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "concurrently": "^6.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.3",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-select": "^4.3.0",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "web-vitals": "^1.1.1"
+  }
+}
